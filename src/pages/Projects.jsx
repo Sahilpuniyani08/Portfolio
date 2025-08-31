@@ -55,7 +55,7 @@ const Projects = () => {
 
   return (
     <div className='p-2 mb-[100vh]'>
-      <div className='bg-red-100 lg:pt-[35vh] pt-[50vh] '>
+      <div className='lg:pt-[35vh] pt-[50vh] '>
         <h2 className='font-[font2] lg:text-[14vw] text-7xl uppercase'>Projects</h2>
       </div>
       <div className='-lg:mt-10 lol'>

@@ -73,7 +73,7 @@ const FullScreenNav = () => {
 
 
     return (
-        <div ref={fullScreenRef} id='full-screen-nav' className='fullscreennav overflow-hidden text-white h-screen w-full absolute z-50'>
+        <div ref={fullScreenRef} id='full-screen-nav' className='fullscreennav overflow-y-scroll text-white h-screen w-full absolute z-50'>
             <div className='w-full h-screen fixed'>
                 <div className='h-full w-full flex '>
                     <div className='stairing h-full w-1/5 bg-black '></div>
@@ -102,7 +102,7 @@ const FullScreenNav = () => {
                         <div></div>
                     </div>
                 </div>
-                <div className='all-links py-36'>
+                <div className='all-links py-5'>
                     <div className='link origin-top border-t-1 relative  border-white text-center'>
                         <h1 className='font-[font2] text-7xl lg:text-[8vw] uppercase lg:leading-[0.9] lg:pt-1.5 pt-3 tracking-tight '>Projects</h1>
                         <div className='moveLink absolute flex top-0 bg-[#D3FD50] text-black'>
